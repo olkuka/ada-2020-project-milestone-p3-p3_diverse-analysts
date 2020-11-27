@@ -6,10 +6,10 @@ Predicting NYC property sales with Google Trends
 
 2. **Abstract**
 
-    In our assigned paper there are explored different datasets by analyzing how Google Trends data could influence economic predictions such as initial claims for unemployment, automobile demand and vacation destinations. We propose to examine a different dataset related to the NYC sales property and check how Google Trends data impact the prediction. 
+In our assigned paper there are explored different datasets by analyzing how Google Trends data could influence economic predictions such as initial claims for unemployment, automobile demand and vacation destinations. We propose to examine a different dataset related to the NYC sales property and check how Google Trends data impact the prediction. 
 
 
-    To do so, we will find out several Google Trends categories and analyze which are better to improve the model. So, we will execute the autoregressive model, setting out different possibile lags and observe if using Google Trends has a positive effect both on the in-sample fit and out-of-sample forecasting. Indeed, we will compute the MAE, examining if it will be meliorate or not and, finally we will plot the actual log of the sales and the ones we obtained with and without Trends, in order to understand better Google Trends effect. Furthermore, we will search for possible turning points (e.g. 2016 election in the US) in the time series and in that case we will report the different MAE around turning points, finding out in which exact periods Google Trends fits better than the Base model.  
+To do so, we will find out several Google Trends categories and analyze which are better to improve the model. So, we will execute the autoregressive model, setting out different possibile lags and observe if using Google Trends has a positive effect both on the in-sample fit and out-of-sample forecasting. Indeed, we will compute the MAE, examining if it will be meliorate or not and, finally we will plot the actual log of the sales and the ones we obtained with and without Trends, in order to understand better Google Trends effect. Furthermore, we will search for possible turning points (e.g. 2016 election in the US) in the time series and in that case we will report the different MAE around turning points, finding out in which exact periods Google Trends fits better than the Base model.  
 
 3. **Research questions**
 *   Which categories should we choose to improve prediction?
