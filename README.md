@@ -16,11 +16,12 @@
 *   Is there a correlation between a higher number of searches for properties category on Google Trends in NYC and the actual number of sold flats?
 *   Did the election of Donald Trump in November 2016 have any effect on the sales?
 4. **Proposed datasets**
-1. nyc-rolling-sales.csv from the “NYC property sales” Kaggle dataset
-2. google trends data regarding properties, apartments searches in the area of New York / New York state
+* nyc-rolling-sales.csv from the “NYC property sales” Kaggle dataset [nyc!](https://www.kaggle.com/new-york-city/nyc-property-sales)
+* google trends data regarding properties, apartments searches in the area of New York / New York state
 5. **Methods**
-*   Autoregressive Model 
-*   gtab (GoogleTrendsAnchorBank) library to extract
+*   Data collection: use gtab (GoogleTrendsAnchorBank) library to extract required data from Google Trends, download the dataset from Kaggle. Substitute mising values if such exist with meaningful data (similar to HW2). Lastly, select all necessary features for our analysis.
+*   Data analysis: construct Autoregressive Model using Statsmodels, compare the improvement with respect to the base model based on the MAE (experiment with different Google queries, lags) 
+*   Visualization: plot the differences using Seaborn, reflect on any turning points if such exist. Mark 2016 US Election day on the plot.
 6. **Proposed timeline**
 
 **Week 1**: downloading and exploring the NYC sales property dataset from Kaggle. Selecting only the columns useful for our scope and moving forward with data cleaning and preprocessing. Searching via Google Trends for different categories that could have an impact on the prediction. Downloading the query index data as a CSV file.
