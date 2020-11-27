@@ -1,6 +1,9 @@
 # ada-2020-project-milestone-p3-p3_diverse-analysts
 
-1. **Title** Predicting NYC property sales with Google Trends
+1. **Title** 
+
+Predicting NYC property sales with Google Trends
+
 2. **Abstract**
 
     In our assigned paper there are explored different datasets by analyzing how Google Trends data could influence economic predictions such as initial claims for unemployment, automobile demand and vacation destinations. We propose to examine a different dataset related to the NYC sales property and check how Google Trends data impact the prediction. 
